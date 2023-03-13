@@ -36,12 +36,12 @@ function App() {
   const auth = getAuth();
 
   const cookies = new Cookies();
-  useEffect(() => {
-    onAuthStateChanged(authentication, (user) => {
-      setcurrentuser(user.phone_number);
-      setsenduser(true);
-    });
-  }, []);
+  // useEffect(() => {
+  //   onAuthStateChanged(authentication, (user) => {
+  //     setcurrentuser(user.phone_number);
+  //     setsenduser(true);
+  //   });
+  // }, []);
 
   return (
     <div className="App">
