@@ -1,0 +1,31 @@
+.Profile_title{
+    
+  font-size: large;
+  font-weight: bolder;
+  margin-left: 35px;
+  margin-top: 35px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  cursor: pointer;
+  color: rgba(240, 248, 255, 0.888);
+}
+.logout_button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  background-color: rgb(42, 13, 71);
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  cursor: pointer;
+  color: aliceblue;
+}
+.logout_button:hover{
+  color: aliceblue;
+  background-color: rgb(104, 32, 172);
+}

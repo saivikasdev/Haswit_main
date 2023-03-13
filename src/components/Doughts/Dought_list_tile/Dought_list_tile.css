@@ -1,0 +1,72 @@
+.Dought_list_tile{
+    cursor: pointer;
+    width: 90vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #222222;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.19);
+}
+.arrow_dought{
+    font-size: 25px;
+}
+.Look_into{
+    display: flex;
+    align-items: center;
+    color: #7e3eff;
+}
+.Answer_number{
+    background-color: #292929;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Posted_at{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.585);
+}
+.Dought_que{
+    font-size: 18px;
+    font-weight: 400;
+}
+.Doughter_name{
+    font-weight: 700;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .Dought_list_tile{
+    width: 80vw;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .Doughter_name{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .Doughter_UID{
+        
+        font-size: 12px;
+    }
+    .Answer_number{
+        width: 100px;
+        padding: 7px;
+        font-size: 12px;
+    }
+    .Dought_que{
+        padding: 6px;
+        width: 30vw;
+        font-size: 12px;
+        font-weight: 400;
+    } 
+    .Look_into{
+        display: none;
+    }
+    .Posted_at{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,24 @@
+
+.output{
+   width: 40vw;
+   height: 40vh;
+   background-color: aliceblue;
+}
+.runcode{
+   background-color: blueviolet;
+   padding: 10px;
+   width: 100px;
+   color: aliceblue;
+   border-radius: 5px;
+   margin: 10px;
+}
+.code_row{
+   display: flex;
+   flex-direction: row;
+}
+.add_note_form{
+   
+   display: flex;
+   flex-direction: row;
+   margin: 10px;
+}

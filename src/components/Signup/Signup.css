@@ -1,0 +1,69 @@
+.Signup{
+   width: 100vw;
+   height: 100vh;
+   background-color: #202020;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.Phone_otp_block{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   background-color: #292929;
+   width: 400px;
+   height: 500px;
+   border-radius: 20px;
+   align-items: center;
+}
+.Phone_otp_block:hover{
+   transition-delay: 0.2s;
+   border: 1px solid blueviolet;
+   border-radius: 30px;
+}
+.Phone_input{
+   background-color: #222222;
+   border-radius: 10px;
+   padding: 20px;
+   color: white;
+   width: 300px;
+   font-size: 20px;
+}
+.Phone_text{
+   color: aliceblue;
+   font-weight: 500;
+   font-size: 20px;
+}
+.send_otp{
+   color: aliceblue;
+   background-color: blueviolet;
+   text-align: center;
+   padding: 20px;
+   border-radius: 10px;
+   width: 300px;
+}
+.send_otp:hover{
+   cursor: pointer;
+   background-color: rgb(108, 12, 199);
+}
+.OTP_input{
+   
+   background-color: #222222;
+   border-radius: 10px;
+   padding: 20px;
+   color: white;
+   width: 300px;
+   font-size: 20px;
+}
+form{
+   background-color: antiquewhite;
+}
+
+.btn:focus {
+   outline: none;
+}
+
+.btn:active {
+   transform: scale(0.98);
+}

@@ -1,0 +1,132 @@
+.Help_title {
+  font-size: large;
+  font-weight: bolder;
+  margin-left: 35px;
+  margin-top: 35px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.Help_body {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 93vw;
+  height: 85vh;
+  border-radius: 10px;
+}
+.Help_text{
+  margin-top: 30px;
+    word-spacing: 1px;
+    font-size: large;
+    padding: 10px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.757);
+    border-radius: 5px;
+    background-color: #4600ae;
+}
+
+
+
+.right_img{
+
+}
+.Help_content{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-evenly;
+  padding: 10px;
+
+}
+.Help_card{
+  margin: 30px;
+  font-size: xx-large;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.Mentor_name{
+  font-size: medium;
+  font-weight: 700;
+color: rgba(255, 255, 255, 0.589);
+
+}
+.Contact_us_pic{
+  width: 600px;
+}
+.Mentor_phone{
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.88);
+}
+.left_contact{
+  padding: 70px;
+
+  gap: 15px;
+  background-color: #222222;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 40vh;
+  border-radius:30px ;
+}
+
+.Dought_button{
+  background-color: #4600ae;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.576);
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.Dought_button:hover{
+  cursor: pointer;
+  background-color: #2d0071;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.576);
+  border-radius: 20px;
+
+}
+
+@media screen and (max-width: 1000px) {
+  .Help_content{
+    flex-direction: column;
+  
+  }
+  
+.Help_card{
+  padding: 20px;
+  height: 200px;
+}
+.right_img{
+margin:0px ;
+}
+  
+.left_contact{
+  min-height: 100vh;
+  padding: 0px;
+  width: 80vw;
+  gap: 15px;
+  background-color: #222222;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius:30px ;
+}
+.Help_body {
+  width: 77%;
+}
+.Contact_us_pic{
+  width: 400px;
+}
+}

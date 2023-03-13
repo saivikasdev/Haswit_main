@@ -1,0 +1,121 @@
+.Dought_detail_title{
+    
+  font-size: large;
+  font-weight: bolder;
+  margin-left: 35px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.Doughted_student_{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: small;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #222222;
+    padding: 10px;
+    border-radius: 40px;
+    width: fit-content;
+    margin-top: 5px;
+
+}
+.Answered_student_{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: small;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #292929;
+    padding: 10px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    width: fit-content;
+    margin-top: 5px;
+}
+.dought_title_row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.no_of_answers{
+    font-size: medium;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: #222222;
+    border-radius: 20px;
+    padding: 10px;
+}
+.Answered_student_:hover{
+    background-color: rgb(27, 27, 27);
+    cursor: pointer;
+}
+.profile_image__{
+    width: 30px;
+}
+.Answer_tile{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.261);
+    background-color: #222222;  
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Answer_tile:hover{
+    
+    border: 1px solid rgba(137, 0, 201, 0.776);
+}
+.dought_title_container{
+     display: flex;
+     width: 90vw;
+     justify-content: space-between;
+     align-items: center;
+
+
+}
+.solve_button{
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 20px;
+}
+.solve_button:hover{
+    cursor: pointer;
+    background-color: rgb(84, 0, 162);
+    padding: 20px;
+    border-radius: 20px;
+}
+@media screen and (max-width: 800px) {
+    .Answered_student_{
+        height: 40px;
+    }
+    
+.dought_title_container{
+    flex-direction: column-reverse;
+    width: 75vw;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.Dought_detail_title{
+    margin-left: 10px;
+}
+.solve_button{
+    width: 80vw;
+    text-align: center;
+}
+.Answer_tile{
+    flex-direction: column;
+}
+}

@@ -1,0 +1,56 @@
+.Complete_details{
+   width: 100vw;
+   height: 100vh;
+   background-color: #202020;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.project_details{
+   background-color: #222222;
+   border-radius: 10px;
+   padding: 20px;
+   color: white;
+   width: 80%;
+   height: 100px;
+   font-size: 15px;
+}
+input{
+   background-color: #222222;
+   border-radius: 10px;
+   padding: 16px;
+   color: white;
+   width: 300px;
+   font-size: 16px;
+}
+.Details_head{
+   color: aliceblue;
+   font-weight: 500;
+   font-size: 20px;
+}
+
+.btn:focus {
+   outline: none;
+}
+
+.btn:active {
+   transform: scale(0.98);
+}
+
+
+
+.Details_block{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   background-color: #292929;
+   width: 400px;
+   height: 700px;
+   border-radius: 20px;
+   align-items: center;
+}
+.Details_block:hover{
+   transition-delay: 0.2s;
+   border: 1px solid blueviolet;
+   border-radius: 30px;
+}

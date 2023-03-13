@@ -1,0 +1,101 @@
+.Profile_title{
+    
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 35px;
+    margin-top: 35px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .top_profile_div{
+      display: flex;
+      align-items: center;
+      width:570px;
+      justify-content: space-evenly;
+      min-height: 150px;
+  
+  }
+  .top_left_div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+  .work{
+    font-weight: bold;
+    color: rgba(240, 248, 255, 0.717);
+  
+  }
+  .profile_pic{
+      width: 220px;
+      background-color: antiquewhite;
+      border-radius: 50px;
+      border: 5px solid blueviolet;
+      
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .Profile_name{
+      font-size: 30px;
+      text-transform: uppercase;
+      font-weight: bolder;
+  
+  }
+  .UID{
+      font-weight: bold;
+      color: rgba(240, 248, 255, 0.717);
+  }
+  .top_row{
+      display: flex;
+      flex-direction: row;
+      width: 90vw;
+      justify-content: space-between;
+      align-items: flex-start;
+  }
+  
+  .top_right_div{
+      margin: 20px;
+      font-size: 16px;
+      font-weight: 600;
+      color: rgba(240, 248, 255, 0.913);
+  }
+  .whatsapp_number{
+      margin: 5px;
+      display: flex;  
+      gap: 10px;
+  }
+  .address{
+      margin: 5px;
+      display: flex;
+      width: 350px;
+      gap: 10px;
+  }
+  .gmail{
+      margin: 5px;
+      display: flex;
+      gap: 10px;
+  
+  }
+  .phone_number{
+      margin: 5px;
+      display: flex;
+      gap: 10px;
+  }
+  @media screen and (max-width: 800px) {
+      .top_row{
+          display: flex;
+          flex-direction: column;
+          width: 80vw;
+  
+          
+      }
+      
+      .profile_pic{
+        width: 120px;
+    }
+
+    
+  .top_profile_div{
+    width: 370px;
+  }
+  }

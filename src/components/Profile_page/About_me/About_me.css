@@ -1,0 +1,30 @@
+.About_me{
+    background-color: #222222;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+    margin: 30px;
+    max-width: 90vw;
+    transition: 0.5s ease-in-out;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    position: relative;
+  flex-direction: column;
+}
+.About_me:hover{
+    background-color: rgb(150, 38, 255);
+    border: 1px solid rgb(227, 227, 227);
+}
+
+.About_me_title{
+    margin: 20px;
+}
+.About_me_title>h2{
+color: rgba(240, 248, 255, 0.833);
+    font-weight: bolder;
+}
+.About_me_body{
+    margin: 40px;
+    width: 50vw;
+    background-color: aqua;
+
+}

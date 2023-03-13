@@ -1,0 +1,41 @@
+.My_codes{
+
+}
+
+.My_codes_title{
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 35px;
+    margin-top: 35px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.My_codes_grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+
+.Mycodes_body{
+    width: 93vw;
+    height: 85vh;
+}
+
+@media (max-width: 1200px) {
+    .My_codes_grid{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+}
+
+@media (max-width: 800px) {
+    .My_codes_grid{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .My_codes{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,116 @@
+.Student_current{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    transition: 0.5s ease-in-out;
+}
+
+
+.Skill_stars_gained{
+    background-color: #222222;
+    width: 40vh;
+    height: 30vh;
+    border-radius: 30px;    
+    font-weight: 600;
+    font-size: larger;
+    color: rgba(240, 248, 255, 0.446);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    transition: 0.5s ease-in-out;
+}
+.Skill_stars_gained:hover{
+    background-color: blueviolet;
+
+}
+.Ranking_position{
+    background-color: #222222;
+    width: 40vh;
+    height: 30vh;
+    border-radius: 30px;    
+    font-weight: 600;
+    font-size: larger;
+    color: rgba(240, 248, 255, 0.446);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    transition: 0.5s ease-in-out;
+}
+.Ranking_position:hover{
+    background-color: blueviolet;
+
+}
+.Percentage_completed_{
+    
+    background-color: #222222;
+    width: 40vh;
+    height: 30vh;
+    border-radius: 30px;    
+    font-weight: 600;
+    font-size: larger;
+    color: rgba(240, 248, 255, 0.446);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    transition: 0.5s ease-in-out;
+}
+.Percentage_completed_:hover{
+    background-color: blueviolet;
+
+}
+
+.Days_left{
+    background-color: #222222;
+    width: 40vh;
+    height: 30vh;
+border-radius: 30px;    
+font-weight: 600;
+font-size: larger;
+color: rgba(240, 248, 255, 0.446);
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 30px;
+transition: 0.5s ease-in-out;
+}
+
+.Days_left:hover{
+    background-color: blueviolet;
+
+}
+.Days_left_value{
+    color: rgb(240, 248, 255);
+    font-size: 150px;
+    font-weight: 600;
+}
+
+
+.Percentage_completed_value{
+    color: rgb(240, 248, 255);
+    font-size: 150px;
+    font-weight: 600;
+}.Ranking_position_value{
+    color: rgb(240, 248, 255);
+    font-size: 150px;
+    font-weight: 600;
+}.Skill_stars_value{
+    color: rgb(240, 248, 255);
+    font-size: 150px;
+    font-weight: 600;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .Student_current{
+        margin: 0px;
+    flex-direction: column;
+    }
+
+}

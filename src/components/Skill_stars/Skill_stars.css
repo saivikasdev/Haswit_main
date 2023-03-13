@@ -1,0 +1,84 @@
+.Skillstars_title {
+  font-size: large;
+  font-weight: bolder;
+  margin-left: 35px;
+  margin-top: 35px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.Skill_stars {
+  display: flex;
+  flex-direction: column;
+}
+
+.Head_container {
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid rgba(137, 43, 226, 0.943);
+  background-color: #222222;
+  width: 80vw;
+  height: 20vh;
+  border-radius: 20px;
+  font-size: 22px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: rgba(255, 255, 255, 0.867);
+  
+  transition: 0.5s ease-in-out;
+}
+.Head_container:hover {
+  background-color: rgb(169, 49, 255);
+}
+.Skill_Stars {
+  display: flex;
+  align-items: center;
+  font-size: 70px;
+}
+
+.Position {
+  font-size: 70px;
+}
+.Do_projects {
+  color: rgb(193, 126, 255);
+}
+.Skill_stars_body {
+  display: flex;
+  flex-direction: column;
+  background-color: #222222;
+  border: 1px solid blueviolet;
+  margin-top: 15px;
+  border-radius: 10px;
+  height: 80vh;
+  overflow-y: scroll;
+  color: rgba(240, 248, 255, 0.898);
+}
+.Skill_stars_body::-webkit-scrollbar {
+}
+.first_cont{
+  margin-top: 15px; 
+}
+.Second_cont{
+  margin-top: 15px; 
+}
+.history_title {
+  font-size: large;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-top: 25px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.Complete_sessions {
+  color: rgb(193, 126, 255);
+}
+
+@media screen and (max-width: 800px) {
+  .Head_container {
+    font-size: 3vw;
+    padding: 10px;
+  }
+  .Complete_sessions {
+    width: 40vw;
+  }
+}

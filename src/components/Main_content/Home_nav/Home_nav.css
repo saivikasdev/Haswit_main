@@ -1,0 +1,157 @@
+.Home_nav {
+  width: calc(100vw - 130px);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.end_content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 33px;
+  margin-right: 33px;
+  gap: 25px;
+}
+
+.front_content {
+  color: rgb(206, 206, 206);
+  margin-left: 29px;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  word-spacing: 3px;
+}
+
+.notifications {
+  cursor: pointer;
+  padding: 10px;
+  height: 43px;
+  border-radius: 40px;
+  background-color: #2c2c2c;
+}
+
+.skill_stars {
+  cursor: pointer;
+  padding: 10px;
+  height: 43px;
+  width: 70px;
+  border-radius: 40px;
+  background-color: #2c2c2c;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.skill_stars:hover{
+  background-color: rgb(48, 48, 48);
+}
+
+.notifications:hover{
+  background-color: rgb(48, 48, 48);
+}
+.count {
+  color: rgb(163, 163, 163);
+  font-size: smaller;
+  font-weight: bold;
+}
+.profile_pic_cont_nav {
+  cursor: pointer;
+  background-color: black;
+  border-radius: 40px;
+  padding: 1px;
+  width: fit-content;
+  height: fit-content;
+}
+.profile_pic_cont_nav:hover{
+  background-color: #250e0e;
+}
+.profile_image_nav {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+}
+
+@media screen and (max-width: 1600px) {
+  .Home_nav {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .Home_nav {
+    width: 80vw;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .profile_pic_cont_nav {
+    display: none;
+  }
+
+  .front_content {
+    margin-top: 33px;
+    margin-left: 0px;
+    font-size: 3vw;
+    font-weight: bold;
+    word-spacing: 3px;
+  }
+ .front_content>span{
+    display: none;
+ }
+  .end_content {
+    gap: 10px;
+  }
+
+  .end_content {
+    margin-right: 10px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+}
+
+
+.notification_container{
+  background-color: #222222ef;
+  padding: 20px;
+  width: 50vh;
+  position: absolute;
+  top: 5%;
+  left: 70%;
+  border-radius: 5px;
+  max-height: 50vh;
+  
+  overflow-y: scroll;
+  
+}
+
+.Notification{
+  background-color: #00000086;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+.notifications_heading{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.close{
+  color: aliceblue;
+}
+.close:hover{
+  color: aliceblue;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .notification_container{
+    left: 80%;
+  }
+  }

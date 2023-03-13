@@ -1,0 +1,37 @@
+.Projects_block{
+    width: 27vw;
+    background-color: rgb(45, 45, 45);
+    height: 260px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.projects_available{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.741);
+
+}
+
+.number{
+    font-weight: bold;
+    font-size: 150px;
+    color: rgba(255, 255, 255, 0.835);
+}
+
+@media screen and (max-width: 1200px) {
+
+
+
+
+    .Projects_block{
+
+        width: 76vw;
+    }
+}

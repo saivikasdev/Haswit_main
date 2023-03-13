@@ -1,0 +1,59 @@
+.Percentage_block{
+
+    width: 27vw;
+    background-color: #935dffb6;
+    height: 260px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: end;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.column_percentage{
+    margin-right: 7.8vw;
+    height: 180px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.Percentage_completed{
+    font-weight:500;
+    color: rgba(255, 255, 255, 0.766);
+}
+
+.Out_of{
+    font-size: 13.5px;
+    font-weight:400;
+    color: rgba(255, 255, 255, 0.686);
+}
+.Percentage{
+    font-weight: 100;
+    font-size: 4vw;
+    padding-right: 2vw;
+    padding-bottom: 2vw;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+
+
+
+    .Percentage_block{
+
+        width: 76vw;
+    }
+
+    .Percentage{
+        font-weight: 100;
+        font-size: 15vw;
+        padding-right: 2vw;
+        padding-bottom: 25px;
+    }
+
+}
