@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/saivikasdev/Haswit_main/static/css/main.b7585ca2.css",
-    "main.js": "/saivikasdev/Haswit_main/static/js/main.8e4eeb32.js",
-    "static/media/live_banner.png": "/saivikasdev/Haswit_main/static/media/live_banner.596f617868f133ecb866.png",
-    "static/media/fidget.png": "/saivikasdev/Haswit_main/static/media/fidget.d2928a5601f24f2754f1.png",
-    "static/media/illustration.png": "/saivikasdev/Haswit_main/static/media/illustration.2aa21a20769ae53a2f4c.png",
-    "static/media/bitmoji.png": "/saivikasdev/Haswit_main/static/media/bitmoji.2d3f719f2366dba49a4a.png",
-    "index.html": "/saivikasdev/Haswit_main/index.html",
-    "main.b7585ca2.css.map": "/saivikasdev/Haswit_main/static/css/main.b7585ca2.css.map",
-    "main.8e4eeb32.js.map": "/saivikasdev/Haswit_main/static/js/main.8e4eeb32.js.map"
+    "main.css": "/Haswit_main/static/css/main.a4d64253.css",
+    "main.js": "/Haswit_main/static/js/main.2da25a39.js",
+    "static/media/live_banner.png": "/Haswit_main/static/media/live_banner.596f617868f133ecb866.png",
+    "static/media/fidget.png": "/Haswit_main/static/media/fidget.d2928a5601f24f2754f1.png",
+    "static/media/illustration.png": "/Haswit_main/static/media/illustration.2aa21a20769ae53a2f4c.png",
+    "static/media/bitmoji.png": "/Haswit_main/static/media/bitmoji.2d3f719f2366dba49a4a.png",
+    "index.html": "/Haswit_main/index.html",
+    "main.a4d64253.css.map": "/Haswit_main/static/css/main.a4d64253.css.map",
+    "main.2da25a39.js.map": "/Haswit_main/static/js/main.2da25a39.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7585ca2.css",
-    "static/js/main.8e4eeb32.js"
+    "static/css/main.a4d64253.css",
+    "static/js/main.2da25a39.js"
   ]
 }
